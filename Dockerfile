@@ -6,7 +6,6 @@ RUN npm install
 COPY . ./
 RUN npm run build
 
-
 # FROM nginx:1-alpine 5 low level vuln CVE
 # FROM nginx:latest 99 vuln CVE
 # FROM ubuntu/nginx:1.18-22.04_beta
