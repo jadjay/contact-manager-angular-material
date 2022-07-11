@@ -27,5 +27,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: jadjay/contact-manager:$(date +s)
+        tags: jadjay/contact-manager:v1
 
